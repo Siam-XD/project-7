@@ -1,0 +1,94 @@
+/* basic */
+a {
+    text-decoration: none !important;
+}
+ul, ol {
+    list-style: none;
+    padding: 0 !important;
+}
+/* hero section + others*/
+#hero {
+    padding: 80px 0;
+}
+.green-btn {
+    background-color: #4CAF4F !important;
+    color: white !important;
+}
+.navlinks > ul > li > a {
+    margin-right: 50px;
+}
+.hero-text > h1 {
+    font-size: 64px;
+    color: #4D4D4D;
+}
+.hero-text > h1 > span, .help-text > h2 > span, .customer-text > h3, .customer-text a, .read-more > a {
+    color: #4CAF4F;
+}
+.hero-text > p, .help-number > h3 {
+    color: #4D4D4D;
+}
+/* client section + others */
+#client, #pixelgrade, #design, #customer {
+    padding: 25px 0;
+}
+.client-text > h2, .manage-text > h2, .manage-card > h3, .pxl-text > h2, .help-text > h2, .design-text > h2, .caring-text > h2 {
+    color: #4D4D4D;
+    font-size: 36px;
+}
+.client-text > p, .manage-text > p, .manage-card > p, .pxl-text > p, .help-text > p, .help-number > p, .design-text > p, .customer-text > h6, .caring-text > p {
+    color: gray;
+}
+/* pixelgrade section */
+.pxl-text > p {
+    margin-bottom: 32px;
+}
+/* help section */
+#help {
+    padding: 64px 0;
+    background-color: #F5F7FA;
+    margin: 35px 0;
+}
+/* customer section */
+.customer-text > p, .read-more > p {
+    color: #717171;
+}
+.customer-text a, .read-more > a {
+    font-size: 20px;
+}
+/* caring section */
+#caring {
+    margin: 25px 0 130px 0;
+}
+.read-more {
+    background-color: #F5F7FA;
+    box-shadow: 0 8px 16px #ABBED166;
+}
+#caring img {
+    width: 100%;
+}
+/* demo section */
+#demo {
+    background-color: #F5F7FA;
+}
+.demo-text > h2 {
+    color: #263238;
+    font-size: 64px;
+}
+/* footer */
+footer {
+    background-color: #263238;
+    padding: 64px 0;
+}
+.footer-left > ul > li {
+    height: 32px;
+    width: 32px;
+    background-color:#4D4D4D;
+}
+.footer-left > p, .footer-right a, .footer-right input {
+    font-size: 14px;
+    color: #F5F7FA;
+}
+.footer-right input {
+    background-color: hsla(0, 0%, 100%, 0.205);
+    border: none;
+}
