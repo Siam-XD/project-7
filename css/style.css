@@ -6,6 +6,9 @@ ul, ol {
     list-style: none;
     padding: 0 !important;
 }
+body .container {
+    overflow: hidden;
+}
 /* hero section + others*/
 #hero {
     padding: 80px 0;
@@ -26,6 +29,9 @@ ul, ol {
 }
 .hero-text > p, .help-number > h3 {
     color: #4D4D4D;
+}
+.hero-img > img {
+    width: 100%;
 }
 /* client section + others */
 #client, #pixelgrade, #design, #customer {
@@ -91,4 +97,34 @@ footer {
 .footer-right input {
     background-color: hsla(0, 0%, 100%, 0.205);
     border: none;
+}
+
+@media (max-width: 575px) {
+    #caring {
+        margin: 25px 0 50px 0;
+    }
+    #caring .container {
+        padding-bottom: 115px;
+    }
+    /* #caring .container {
+        overflow: visible;
+    } */
+    .hero-text > h1 {
+        font-size: 50px;
+    }
+    #hero {
+        padding: 40px 0;
+    }
+    .client-text > h2, .manage-text > h2, .manage-card > h3, .pxl-text > h2, .help-text > h2, .design-text > h2, .caring-text > h2 {
+        font-size: 30px;
+    }
+    .caring-card {
+        margin-top: 150px !important;
+    }
+    .demo-text > h2 {
+        font-size: 45px;
+    }
+    img {
+        width: 100%;
+    }
 }
