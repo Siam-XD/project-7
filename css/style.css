@@ -62,8 +62,11 @@ body .container {
     font-size: 20px;
 }
 /* caring section */
-#caring {
-    margin: 25px 0 130px 0;
+/* #caring {
+    margin: 25px 0 90px 0;
+} */
+#caring .container {
+    padding-bottom: 170px;
 }
 .read-more {
     background-color: #F5F7FA;
