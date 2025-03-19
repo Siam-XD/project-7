@@ -131,3 +131,14 @@ footer {
         width: 100%;
     }
 }
+@media (min-width: 767px) and (max-width: 991px) {
+    .hero-text > h1 {
+        font-size: 55px;
+    }
+    .caring-card p {
+        font-size: 15px !important;
+    }
+    .caring-card a {
+        font-size: 1.2rem !important;
+    }
+}
